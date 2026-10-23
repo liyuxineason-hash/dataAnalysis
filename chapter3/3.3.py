@@ -26,5 +26,14 @@
 
 
 
+#集合 无序，不重复。
+a = set(['hp','ch',2017,2.5,2017])
+print(a)
+
+#冻结集合
+a = frozenset(a)
+print(a)
+
+
 
 
