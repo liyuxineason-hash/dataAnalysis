@@ -34,6 +34,9 @@ print(a)
 a = frozenset(a)
 print(a)
 
+#字典 键值对 键不可变且唯一
+d = {'id':10001,'name':'祁同伟','position':'省公安厅长','num':18188888888}
+print(f'警号：{d.get("id")}{"\n"}姓名：{d.get("name")}{"\n"}职务：{d.get("position")}{"\n"}号码：{d.get("num")}')
 
 
 
